@@ -1,0 +1,25 @@
+$primary-color: #3ea5ef;
+$secondary-color: #f1f8e9;
+
+body {
+  background-color: $secondary-color;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: $primary-color;
+  text-align: center;
+}
+
+button {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}

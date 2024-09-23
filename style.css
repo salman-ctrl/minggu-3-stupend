@@ -1,0 +1,23 @@
+body {
+  background-color: #9af433;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #3ea5ef;
+  text-align: center;
+}
+
+button {
+  background-color: #3ea5ef;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(19.1387559809, 142.3444976077, 230.8612440191);
+}
+
+/*# sourceMappingURL=style.css.map */
